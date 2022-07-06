@@ -1,0 +1,236 @@
+html {
+  font-size: 10px; //rem usage
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+ol,
+ul,
+dl {
+  margin: 0 !important;
+}
+
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.q-page {
+  min-height: inherit !important;
+}
+
+.row.no-pad {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.col.no-pad {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.message-error {
+  color: rgb(211, 76, 76);
+}
+
+.q-btn {
+  font-family: "Lato-Bold", Helvetica, Arial !important;
+  border-radius: 15px !important;
+  -webkit-border-radius: 15px !important;
+  -moz-border-radius: 15px !important;
+  -ms-border-radius: 15px !important;
+  -o-border-radius: 15px !important;
+}
+
+h1 {
+  font-family: "Lato-Bold", Helvetica, Arial !important;
+  font-size: 6rem !important;
+  line-height: 6.5rem !important;
+  margin: 0 !important;
+  color: #005894;
+  text-align: left;
+
+  @media (max-width: $breakpoint-sm-max) {
+    font-size: 2.8rem !important;
+    line-height: 1.5rem !important;
+  }
+}
+
+h2 {
+  font-family: Helvetica, Arial !important;
+  font-size: 4rem !important;
+  line-height: 5rem !important;
+  margin: 0 !important;
+  color: #005894;
+  text-align: left;
+}
+
+h3 {
+  font-size: 4rem !important;
+  font-family: "Lato-Bold", Helvetica, Arial !important;
+  line-height: 3rem !important;
+  margin: 0 !important;
+  color: #005894;
+  text-align: left;
+
+  @media (max-width: $breakpoint-xs-max) {
+    font-size: 2.2rem !important;
+    line-height: 2rem !important;
+  }
+}
+
+.header-image {
+  position: relative;
+  height: 225px;
+  background-size: cover 100% !important;
+  background-repeat: no-repeat !important;
+  background-position: 0px -5px !important;
+  background: url("~@/assets/img/header.png");
+
+  @media (max-width: $breakpoint-xs-max) {
+    background-position: 0px -50px !important;
+    background-size: 100% 130px !important;
+    height: 150px;
+  }
+
+  &-mobile {
+    h3 {
+      position: absolute;
+      bottom: 0;
+      padding: 2rem 1rem;
+    }
+  }
+}
+
+.menu {
+  width: 100vw;
+  height: 120px;
+
+  @media (max-width: $breakpoint-sm-max) {
+    height: 80px;
+  }
+
+  @media (max-width: $breakpoint-xs-max) {
+    height: 60px;
+  }
+
+  &__logo {
+    position: absolute;
+    bottom: 0;
+    left: 13%;
+
+    @media (max-width: $breakpoint-md-min) {
+      left: 100px;
+    }
+
+    @media (max-width: $breakpoint-sm-min) {
+      left: 40px;
+    }
+
+    img {
+      height: 80px;
+      width: 100%;
+      object-fit: contain;
+
+      @media (max-width: $breakpoint-sm-max) {
+        height: 60px;
+      }
+
+      @media (max-width: $breakpoint-xs-max) {
+        height: 40px;
+      }
+    }
+  }
+
+  &__nav {
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+    list-style-type: none;
+
+    ul {
+      margin-bottom: 0 !important;
+    }
+
+    li {
+      display: inline-block;
+
+      a {
+        font-size: 1.6rem;
+        font-family: "Lato-Bold", Helvetica, Arial !important;
+        text-decoration: none;
+        color: $orange;
+        margin: 0 2rem;
+
+        @media (max-width: $breakpoint-sm-max) {
+          font-size: 1.4rem;
+          margin: 0 1rem;
+        }
+
+        @media (max-width: $breakpoint-xs-max) {
+          font-size: 1.3rem;
+          margin: 0 0.8rem;
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  width: 100vw;
+  height: 80px;
+  margin-top: 15rem;
+  background: $brand;
+
+  @media (max-width: $breakpoint-sm-max) {
+    height: 50px;
+    margin-top: 8rem;
+  }
+
+  ul {
+    height: 100%;
+    margin: 0;
+    list-style-type: none;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: $breakpoint-xs-min) {
+      padding: 0;
+    }
+  }
+
+  li {
+    display: inline-block;
+
+    @media (max-width: $breakpoint-sm-max) {
+      padding: 1rem;
+    }
+
+    a {
+      font-family: Helvetica, Arial;
+      font-size: 1.6rem;
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #ffffff;
+
+      @media (max-width: $breakpoint-sm-max) {
+        font-size: 1.4rem;
+        margin: 0 1rem;
+      }
+
+      @media (max-width: $breakpoint-xs-max) {
+        font-size: 1.2rem;
+        margin: 0 0.8rem;
+      }
+    }
+  }
+}

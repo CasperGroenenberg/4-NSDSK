@@ -1,0 +1,52 @@
+// It's highly recommended to change the default colors
+// to match your app's branding.
+@import "~quasar-variables-styl";
+
+$primary: #027be3;
+$secondary: #26a69a;
+$accent: #9c27b0;
+$dark: #1d1d1d;
+$positive: #21ba45;
+$negative: #c10015;
+$info: #31ccec;
+$warning: #f2c037;
+
+$brand: #005894;
+$orange: #f5a54b;
+
+//Breakpoints
+$breakpoint-xs: 599px;
+$breakpoint-sm: 1023px;
+$breakpoint-md: 1439px;
+$breakpoint-lg: 1919px;
+$breakpoint-xl: 1920px;
+
+$sizes: map-merge(
+  (
+    xs: 0,
+    // Extra small screen
+      sm: $breakpoint-xs + 1,
+    // Small screen
+      md: $breakpoint-sm + 1,
+    // Medium screen
+      lg: $breakpoint-md + 1,
+    // Large screen
+      xl: $breakpoint-lg + 1
+  ),
+  $sizes
+);
+
+$breakpoint-xs-min: 0;
+$breakpoint-xs-max: $breakpoint-xs;
+
+$breakpoint-sm-min: map-get($sizes, "sm");
+$breakpoint-sm-max: $breakpoint-sm;
+
+$breakpoint-md-min: map-get($sizes, "md");
+$breakpoint-md-max: $breakpoint-md;
+
+$breakpoint-lg-min: map-get($sizes, "lg");
+$breakpoint-lg-max: $breakpoint-lg;
+
+$breakpoint-xl-min: map-get($sizes, "xl");
+$breakpoint-xl-max: 9999px;

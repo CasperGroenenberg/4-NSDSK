@@ -1,0 +1,80 @@
+.nsdsk-form {
+  @media (max-width: $breakpoint-xs-max) {
+    margin: 3rem 0;
+  }
+
+  &__title {
+    @media (max-width: $breakpoint-xs-max) {
+      padding: 0 1rem;
+    }
+  }
+
+  &__message-title {
+    min-width: 300px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 1rem;
+
+    h3 {
+      text-align: center;
+    }
+  }
+
+  &__content {
+    position: relative;
+    margin: 15vh auto;
+    min-width: 300px;
+    max-width: 550px;
+
+    @media (max-width: $breakpoint-xs-max) {
+      margin: 20px auto;
+    }
+
+    .nsdsk-form__inputgroup {
+      @media (max-width: $breakpoint-xs-max) {
+        padding: 0 1rem;
+      }
+
+      &-input {
+        width: 100%;
+        margin: 0 0 1rem 0;
+
+        @media (max-width: $breakpoint-xs-max) {
+          margin: 1rem 0;
+        }
+      }
+
+      &-label {
+        font-family: "Lato-Bold", Helvetica, Arial !important;
+        font-size: 1.4rem;
+        font-weight: bold;
+        float: left;
+        margin: 5px auto;
+      }
+    }
+
+    .submit-desktop {
+      display: flex;
+      justify-content: flex-end;
+
+      .q-btn {
+        padding: 0px 40px;
+      }
+    }
+
+    .submit-mobile {
+      width: 100vw;
+      position: fixed;
+      bottom: 0;
+      padding: 0px 10px;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  p {
+    @media (max-width: $breakpoint-sm-max) {
+      font-size: 1.2rem !important;
+      line-height: 2.2rem !important;
+    }
+  }
+}

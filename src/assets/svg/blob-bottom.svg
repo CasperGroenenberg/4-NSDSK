@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1110px" height="1084px" viewBox="0 0 1110 1084" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Background</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1110,0 L1109.99833,829.895532 C1041.78572,842.565496 983.036922,848.58539 933.751934,847.955212 C555.506085,843.118808 555.506085,698.99982 177.260236,694.163416 C106.848965,693.26311 48.2949463,696.808732 -7.81597009e-14,702.687332 L0.0121809511,0 L0.0121809511,0 L1110,0 L1110,0 Z" id="path-1"></path>
+        <path d="M1110,848 L1109.99933,1067.66519 C1041.7863,1079.0967 983.037163,1084.52817 933.751934,1083.95959 C555.506085,1079.59598 555.506085,949.565536 177.260236,945.201921 C106.848965,944.389625 48.2949463,947.58864 1.49213975e-13,952.89257 L0.0121809511,848 L0.0121809511,848 L1110,848 L1110,848 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LP_2" transform="translate(0.000000, -1081.000000)">
+            <g id="Background" transform="translate(0.000000, 1081.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#E1EAF2" opacity="0.5" transform="translate(555.000000, 424.000000) scale(-1, -1) translate(-555.000000, -424.000000) " xlink:href="#path-1"></use>
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="Mask" fill="#E1EAF2" opacity="0.5" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>
